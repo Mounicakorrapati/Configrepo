@@ -1,6 +1,12 @@
-eureka.client.registry-with-eureka=true
-eureka.client.registry-fetch=true
-eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
-eureka.instance.hostname=localhost
+eureka:
+  client: 
+    registry-with-eureka: true
+    registry-fetch: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance: 
+    hostname: localhost
 
-server.port=8888
+server:
+  `port: 8888
+
