@@ -4,3 +4,6 @@ spring:
 
 my:
   messgae: Hello GIt
+  
+  server:
+    port: 8888
